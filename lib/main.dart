@@ -96,7 +96,43 @@ class Home extends StatelessWidget {
 ////          image: NetworkImage('https://images.unsplash.com/photo-1592718652928-24ddbff09126?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80'),
 //            image: AssetImage('assets/car-2.jpeg'),
 //        ),
-          child: Image.asset('assets/car-1.jpeg'),
+//          child: Image.asset('assets/car-1.jpeg'),
+
+//          child: Icon (
+//            Icons.airport_shuttle,
+//            color: Colors.lightBlue,
+//            size: 50,
+//          )
+
+
+      //flat button
+//          child: RaisedButton (
+//            onPressed: () {
+//              print('you pressed button');
+//            },
+//            child: Text('click me'),
+//            color: Colors.lightBlue,
+//          )
+
+//          child: RaisedButton.icon (
+//            onPressed: () {
+//              print('you pressed raised button icon');
+//            },
+//            icon: Icon(
+//              Icons.mail
+//            ),
+//            label: Text('mail me'),
+//            color: Colors.brown,
+//          )
+
+          child: IconButton (
+            onPressed: () {
+              print('you pressed IconButton');
+            },
+            icon: Icon(Icons.alarm),
+            color: Colors.brown,
+          )
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
