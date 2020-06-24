@@ -91,49 +91,24 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-//        child: Image(
-////          image: NetworkImage('https://images.unsplash.com/photo-1592718652928-24ddbff09126?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80'),
-//            image: AssetImage('assets/car-2.jpeg'),
-//        ),
-//          child: Image.asset('assets/car-1.jpeg'),
+//      body: Container(
+//
+////        padding: EdgeInsets.all(50),
+////        padding: EdgeInsets.symmetric(horizontal: 50, vertical: 100),
+//        padding: EdgeInsets.fromLTRB(10, 20, 30, 40),
+//        margin: EdgeInsets.all(20),
+//        color: Colors.grey[400],
+//        child: Text('hello'),
+//
+//      ),
 
-//          child: Icon (
-//            Icons.airport_shuttle,
-//            color: Colors.lightBlue,
-//            size: 50,
-//          )
+        body: Padding(
+          padding: EdgeInsets.all(60),
+          child: Text('margin direct to text'),
+        ),
 
 
-      //flat button
-//          child: RaisedButton (
-//            onPressed: () {
-//              print('you pressed button');
-//            },
-//            child: Text('click me'),
-//            color: Colors.lightBlue,
-//          )
 
-//          child: RaisedButton.icon (
-//            onPressed: () {
-//              print('you pressed raised button icon');
-//            },
-//            icon: Icon(
-//              Icons.mail
-//            ),
-//            label: Text('mail me'),
-//            color: Colors.brown,
-//          )
-
-          child: IconButton (
-            onPressed: () {
-              print('you pressed IconButton');
-            },
-            icon: Icon(Icons.alarm),
-            color: Colors.brown,
-          )
-
-      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('click'),
